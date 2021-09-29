@@ -1,6 +1,6 @@
 <!DOCTYPE html><html>
         <head>
-        <title>cad2021 homework site</title>
+        <title>FXXXTech</title>
         <meta charset="utf-8">
 <meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -108,14 +108,14 @@ img.add_border {
             <header class="site-navbar py-4 bg-white" role="banner">
               <div class="container-fluid">
                 <div class="row align-items-center">
-                <h1>你的學號 - 2021 Fall 電腦輔助設計實習 作業網站</h1>
+                <h1>40823114 - 2021 Fall 電腦輔助設計實習 作業網站</h1>
                 <div class="pl-4">
                     <form>
                     <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
                     </form>
                 </div>
                   <!-- <div class="col-11 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">你的學號 - 2021 Fall 電腦輔助設計實習 作業網站</a></h1> 
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40823114 - 2021 Fall 電腦輔助設計實習 作業網站</a></h1> 
                   </div>
                   -->
                   <div class="col-12 col-md-10 d-none d-xl-block">
@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li class='has-children'><a href='CAD1 繪圖.html'>CAD1 繪圖</a><ul class='dropdown'><li><a href='CAD1 安裝配置.html'>CAD1 安裝配置</a><li><a href='CAD1 操作流程.html'>CAD1 操作流程</a></li></ul><li class='has-children'><a href='CAD2 繪圖.html'>CAD2 繪圖</a><ul class='dropdown'><li><a href='CAD2 安裝配置.html'>CAD2 安裝配置</a><li><a href='CAD2 操作流程.html'>CAD2 操作流程</a></li></ul><li><a href='運動場景.html'>運動場景</a></li></ul><li><a href='HW1-1.html'>HW1-1</a><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a><li><a href='Final Project.html'>Final Project</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
                       </ul>
                 </nav>
               </div>
@@ -139,14 +139,18 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='HW1.html'>Next</a> >> HW1<br /><h1>About</h1>
-<p>本學期的電腦輔助設計實習, 要求每一位學員根據本 HW template 的格式建立個人的作業倉儲與網頁.</p>
-<hr/>
-<p>你的學號</p>
-<p>網站倉儲: <a href="https://github.com/mdecourse/cad2021_hw">https://github.com/mdecourse/cad2021_hw</a></p>
-<p>網站連結: <a href="https://mde.tw/cad2021_hw">https://mde.tw/cad2021_hw</a></p>
-<p>其他與作者或作業相關資料說明或介紹</p>
-<br /> <a href='HW1.html'>Next</a> >> HW1</div>
+    <div id="tipue_search_content"> <a href='Develop.html'>Next</a> >> Develop<br /><h1>About</h1>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<br /> <a href='Develop.html'>Next</a> >> Develop</div>
         
     <!-- footer -->
       <div class="container">
