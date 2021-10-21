@@ -2,7 +2,7 @@
         <head>
         <title>FXXXTech</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -139,93 +139,13 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">TASK << <a href='TASK.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1<br /><h1>HWPages</h1>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"># 將資料存入 gist, 取其 url
-url = "https://gist.githubusercontent.com/mdecourse/b11a88a98655d41055c47f08fe94788f/raw/8a27e6885ee1a5074bcf864d741679afeac796c4/2b_w2_stud_list.txt"
-# 利用 open() 開啟 url 後, 以 readlines() 讀取後可納入數列
-data = open(url).readlines()
-# 檢查資料筆數, 第一筆為 title
-#print(data)
-#print(len(data))
-data = data[1:]
-#print(data)
-for i in range(len(data)):
-    num_github = data[i] 
-    num = num_github.split("\t")[0]
-    account = num_github.split("\t")[1]
-    if account == "":
-        account = num
-    print("&lt;a href='https://" + str(account) + ".github.io/cad2021_hw'&gt;"+ str(num) + "&lt;/a&gt;")</pre>
-<p></p>
-<p></p>
-<p>網站<a href="https://40723126.github.io/cad2021_hw">40723126</a> 倉儲<a href="https://github.com/40723126/cad2021_hw">40723126</a></p>
-<p>網站<a href="https://40723135.github.io/cad2021_hw">40723135</a> 倉儲<a href="https://github.com/40723135/cad2021_hw">40723135</a></p>
-<p>網站<a href="https://40723217.github.io/cad2021_hw">40723217</a> 倉儲<a href="https://github.com/40723217/cad2021_hw">40723217</a></p>
-<p>網站<a href="https://40732331.github.io/cad2021_hw">40732331</a> 倉儲<a href="https://github.com/40732331/cad2021_hw">40732331</a></p>
-<p>網站<a href="https://40823114.github.io/cad2021_hw">40823114</a> 倉儲<a href="https://github.com/40823114/cad2021_hw">40823114</a></p>
-<p>網站<a href="https://40823115.github.io/cad2021_hw">40823115</a> 倉儲<a href="https://github.com/40823115/cad2021_hw">40823115</a></p>
-<p>網站<a href="https://pyc40823117.github.io/cad2021_hw">40823117</a> 倉儲<a href="https://github.com/pyc40823117/cad2021_hw">40823117</a></p>
-<p>網站<a href="https://40823119.github.io/cad2021_hw">40823119</a> 倉儲<a href="https://github.com/40823119/cad2021_hw">40823119</a></p>
-<p>網站<a href="https://40823122.github.io/cad2021_hw">40823122</a> 倉儲<a href="https://github.com/40823122/cad2021_hw">40823122</a></p>
-<p>網站<a href="https://40823127.github.io/cad2021_hw">40823127</a> 倉儲<a href="https://github.com/40823127/cad2021_hw">40823127</a></p>
-<p>網站<a href="https://40823146.github.io/cad2021_hw">40823146</a> 倉儲<a href="https://github.com/40823146/cad2021_hw">40823146</a></p>
-<p>網站<a href="https://40823148.github.io/cad2021_hw">40823148</a> 倉儲<a href="https://github.com/40823148/cad2021_hw">40823148</a></p>
-<p>網站<a href="https://40823215.github.io/cad2021_hw">40823215</a> 倉儲<a href="https://github.com/40823215/cad2021_hw">40823215</a></p>
-<p>網站<a href="https://40871106.github.io/cad2021_hw">40871106</a> 倉儲<a href="https://github.com/40871106/cad2021_hw">40871106</a></p>
-<p>網站<a href="https://40923201.github.io/cad2021_hw">40923201</a> 倉儲<a href="https://github.com/40923201/cad2021_hw">40923201</a></p>
-<p>網站<a href="https://youshin40923203.github.io/cad2021_hw">40923203</a> 倉儲<a href="https://github.com/youshin40923203/cad2021_hw">40923203</a></p>
-<p>網站<a href="https://40923204.github.io/cad2021_hw">40923204</a> 倉儲<a href="https://github.com/40923204/cad2021_hw">40923204</a></p>
-<p>網站<a href="https://40923205.github.io/cad2021_hw">40923205</a> 倉儲<a href="https://github.com/40923205/cad2021_hw">40923205</a></p>
-<p>網站<a href="https://40923206-1.github.io/cad2021_hw">40923206</a> 倉儲<a href="https://github.com/40923206-1/cad2021_hw">40923206</a></p>
-<p>網站<a href="https://40923207.github.io/cad2021_hw">40923207</a> 倉儲<a href="https://github.com/40923207/cad2021_hw">40923207</a></p>
-<p>網站<a href="https://nfu40923208.github.io/cad2021_hw">40923208</a> 倉儲<a href="https://github.com/nfu40923208/cad2021_hw">40923208</a></p>
-<p>網站<a href="https://nfu40923209.github.io/cad2021_hw">40923209</a> 倉儲<a href="https://github.com/nfu40923209/cad2021_hw">40923209</a></p>
-<p>網站<a href="https://40923210.github.io/cad2021_hw">40923210</a> 倉儲<a href="https://github.com/40923210/cad2021_hw">40923210</a></p>
-<p>網站<a href="https://a40923211.github.io/cad2021_hw">40923211</a> 倉儲<a href="https://github.com/a40923211/cad2021_hw">40923211</a></p>
-<p>網站<a href="https://40923212.github.io/cad2021_hw">40923212</a> 倉儲<a href="https://github.com/40923212/cad2021_hw">40923212</a></p>
-<p>網站<a href="https://40923213.github.io/cad2021_hw">40923213</a> 倉儲<a href="https://github.com/40923213/cad2021_hw">40923213</a></p>
-<p>網站<a href="https://40923214.github.io/cad2021_hw">40923214</a> 倉儲<a href="https://github.com/40923214/cad2021_hw">40923214</a></p>
-<p>網站<a href="https://40923216.github.io/cad2021_hw">40923216</a> 倉儲<a href="https://github.com/40923216/cad2021_hw">40923216</a></p>
-<p>網站<a href="https://40923217.github.io/cad2021_hw">40923217</a> 倉儲<a href="https://github.com/40923217/cad2021_hw">40923217</a></p>
-<p>網站<a href="https://40923218.github.io/cad2021_hw">40923218</a> 倉儲<a href="https://github.com/40923218/cad2021_hw">40923218</a></p>
-<p>網站<a href="https://nfu40923219.github.io/cad2021_hw">40923219</a> 倉儲<a href="https://github.com/nfu40923219/cad2021_hw">40923219</a></p>
-<p>網站<a href="https://40923220.github.io/cad2021_hw">40923220</a> 倉儲<a href="https://github.com/40923220/cad2021_hw">40923220</a></p>
-<p>網站<a href="https://40923221.github.io/cad2021_hw">40923221</a> 倉儲<a href="https://github.com/40923221/cad2021_hw">40923221</a></p>
-<p>網站<a href="https://40923223.github.io/cad2021_hw">40923223</a> 倉儲<a href="https://github.com/40923223/cad2021_hw">40923223</a></p>
-<p>網站<a href="https://s40923224.github.io/cad2021_hw">40923224</a> 倉儲<a href="https://github.com/s40923224/cad2021_hw">40923224</a></p>
-<p>網站<a href="https://40923225.github.io/cad2021_hw">40923225</a> 倉儲<a href="https://github.com/40923225/cad2021_hw">40923225</a></p>
-<p>網站<a href="https://40923226.github.io/cad2021_hw">40923226</a> 倉儲<a href="https://github.com/40923226/cad2021_hw">40923226</a></p>
-<p>網站<a href="https://40923227.github.io/cad2021_hw">40923227</a> 倉儲<a href="https://github.com/40923227/cad2021_hw">40923227</a></p>
-<p>網站<a href="https://40923228.github.io/cad2021_hw">40923228</a> 倉儲<a href="https://github.com/40923228/cad2021_hw">40923228</a></p>
-<p>網站<a href="https://40923229.github.io/cad2021_hw">40923229</a> 倉儲<a href="https://github.com/40923229/cad2021_hw">40923229</a></p>
-<p>網站<a href="https://40923230.github.io/cad2021_hw">40923230</a> 倉儲<a href="https://github.com/40923230/cad2021_hw">40923230</a></p>
-<p>網站<a href="https://40923231.github.io/cad2021_hw">40923231</a> 倉儲<a href="https://github.com/40923231/cad2021_hw">40923231</a></p>
-<p>網站<a href="https://40923232.github.io/cad2021_hw">40923232</a> 倉儲<a href="https://github.com/40923232/cad2021_hw">40923232</a></p>
-<p>網站<a href="https://40923233.github.io/cad2021_hw">40923233</a> 倉儲<a href="https://github.com/40923233/cad2021_hw">40923233</a></p>
-<p>網站<a href="https://40923234.github.io/cad2021_hw">40923234</a> 倉儲<a href="https://github.com/40923234/cad2021_hw">40923234</a></p>
-<p>網站<a href="https://40923235.github.io/cad2021_hw">40923235</a> 倉儲<a href="https://github.com/40923235/cad2021_hw">40923235</a></p>
-<p>網站<a href="https://40923236.github.io/cad2021_hw">40923236</a> 倉儲<a href="https://github.com/40923236/cad2021_hw">40923236</a></p>
-<p>網站<a href="https://40923237.github.io/cad2021_hw">40923237</a> 倉儲<a href="https://github.com/40923237/cad2021_hw">40923237</a></p>
-<p>網站<a href="https://40923238.github.io/cad2021_hw">40923238</a> 倉儲<a href="https://github.com/40923238/cad2021_hw">40923238</a></p>
-<p>網站<a href="https://40923239.github.io/cad2021_hw">40923239</a> 倉儲<a href="https://github.com/40923239/cad2021_hw">40923239</a></p>
-<p>網站<a href="https://40923240.github.io/cad2021_hw">40923240</a> 倉儲<a href="https://github.com/40923240/cad2021_hw">40923240</a></p>
-<p>網站<a href="https://40923241.github.io/cad2021_hw">40923241</a> 倉儲<a href="https://github.com/40923241/cad2021_hw">40923241</a></p>
-<p>網站<a href="https://40923242.github.io/cad2021_hw">40923242</a> 倉儲<a href="https://github.com/40923242/cad2021_hw">40923242</a></p>
-<p>網站<a href="https://40923243.github.io/cad2021_hw">40923243</a> 倉儲<a href="https://github.com/40923243/cad2021_hw">40923243</a></p>
-<p>網站<a href="https://40923244.github.io/cad2021_hw">40923244</a> 倉儲<a href="https://github.com/40923244/cad2021_hw">40923244</a></p>
-<p>網站<a href="https://40923245-1.github.io/cad2021_hw">40923245</a> 倉儲<a href="https://github.com/40923245-1/cad2021_hw">40923245</a></p>
-<p>網站<a href="https://40923246.github.io/cad2021_hw">40923246</a> 倉儲<a href="https://github.com/40923246/cad2021_hw">40923246</a></p>
-<p>網站<a href="https://40923247.github.io/cad2021_hw">40923247</a> 倉儲<a href="https://github.com/40923247/cad2021_hw">40923247</a></p>
-<p>網站<a href="https://40923248.github.io/cad2021_hw">40923248</a> 倉儲<a href="https://github.com/40923248/cad2021_hw">40923248</a></p>
-<p>網站<a href="https://40923249-1.github.io/cad2021_hw">40923249</a> 倉儲<a href="https://github.com/40923249-1/cad2021_hw">40923249</a></p>
-<p>網站<a href="https://40923250.github.io/cad2021_hw">40923250</a> 倉儲<a href="https://github.com/40923250/cad2021_hw">40923250</a></p>
-<p>網站<a href="https://40923251.github.io/cad2021_hw">40923251</a> 倉儲<a href="https://github.com/40923251/cad2021_hw">40923251</a></p>
-<p>網站<a href="https://40923252.github.io/cad2021_hw">40923252</a> 倉儲<a href="https://github.com/40923252/cad2021_hw">40923252</a></p>
-<p>網站<a href="https://40923253.github.io/cad2021_hw">40923253</a> 倉儲<a href="https://github.com/40923253/cad2021_hw">40923253</a></p>
-<p>網站<a href="https://40971220.github.io/cad2021_hw">40971220</a> 倉儲<a href="https://github.com/40971220/cad2021_hw">40971220</a></p>
-<p>網站<a href="https://40971227.github.io/cad2021_hw">40971227</a> 倉儲<a href="https://github.com/40971227/cad2021_hw">40971227</a></p>
-<p><br/><br/><br/><completed 00="" 497="" in="" ms=""></completed></p>
-<br />TASK << <a href='TASK.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1</div>
+    <div id="tipue_search_content">CAD2 安裝配置 << <a href='CAD2 安裝配置.html'>Previous</a> <a href='HW1-1.html'>Next</a> >> HW1-1<br /><h1>CAD2 操作流程</h1>
+<p>CAD2 指各學員所分配到的第二套參數式 CAD 套件, 其中包括 Solidworks, Inventor, NX, Onshape 與 Solvespace.</p>
+<p>CAD2 零組件繪圖操作流程影片 (Youtube)</p>
+<p>CAD2 零組件繪圖教學影片 (Wink)</p>
+<p>CAD2 零組件繪圖教學影片 embedded 影片: 標題必須為「<span>NFU - MDE - cad2021 - 學號 - SW2020<span> </span></span>零組件繪圖教學影片」且加上<span>語音說明</span>與<span>字幕.<br/></span></p>
+<p>若使用 Solidworks 2017 版, 則將 SW2020 換為 SW2017, 其他套件 INV2020 代表 AutoDesk Inventor 2020 版, 還有 Onshape 與 Solvespace 等套件名稱.</p>
+<br />CAD2 安裝配置 << <a href='CAD2 安裝配置.html'>Previous</a> <a href='HW1-1.html'>Next</a> >> HW1-1</div>
         
     <!-- footer -->
       <div class="container">
